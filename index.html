@@ -10,7 +10,11 @@
   <style>
 body {
   margin: 0;
-  background: #101522;
+  /* Sötétítő réteggel (0.65), hogy a fehér szöveg jól olvasható maradjon: */
+  background: linear-gradient(rgba(16, 21, 34, 0.65), rgba(16, 21, 34, 0.65)), url('hatter.jpg');
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
   color: white;
   font-family: Arial, sans-serif;
   display: flex;
